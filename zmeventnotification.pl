@@ -162,8 +162,8 @@ Usage: zmeventnotification.pl [OPTION]...
   --no-enable-fcm                     Don't use FCM for messaging (default: false).
   --enable-mqtt                       Use MQTT for messaging (default: false).
   --mqtt-server=SERVER                MQTT messaging server (default: 127.0.0.1). 
-  --mqtt-username                     MQTT username (default: unset)
-  --mqtt-password                     MQTT password (default: unset)   
+  --mqtt-username=USERNAME            MQTT username (default: unset)
+  --mqtt-password=PASSWORD            MQTT password (default: unset)   
   --no-enable-mqtt                    Disable MQTT for messaging (default: true).
   --fcm-api-key=KEY                   API key for FCM (default: zmNinja FCM key).
   --token-file=FILE                   Auth token store location (default: /etc/private/tokens.txt).
